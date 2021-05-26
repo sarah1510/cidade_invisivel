@@ -1,0 +1,5 @@
+.submenu{
+    width: 150%;
+    display: flex;
+    justify-content: flex-start;
+}
