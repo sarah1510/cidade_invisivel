@@ -1,5 +1,35 @@
+
+.menu{
+    display: flex;
+}
+
+.menu li > .submenu{
+    display: block;
+}
+
+.menu a span{
+    font-size: 7px;
+}
+
 .submenu{
-    width: 150%;
+    margin-top: 15px;
+    display: none;
+    font-size: 18px;
+    position: absolute;
+}
+
+.submenu a{
+    width: 150px;
+    height: 40px;
     display: flex;
     justify-content: flex-start;
+    padding-left: 20px;
+    padding-top: 10px;
+    background-color: #000000AA;
+    
 }
+
+.submenu a:hover{
+    border-left: 10px solid red;
+}
+
