@@ -6,11 +6,11 @@
 }
 
 body{
-    background-image: url(img/curupira2.jpg);
+    background-image: url(img/saci2.jpg);
     background-size: cover;
     background-position: right;
     background-repeat: no-repeat;
-    background-color: #00000055;
+    background-color: #000000AA;
     display: flex;
     flex-direction: column;
     height: 100vh;
@@ -21,7 +21,7 @@ body{
 
 header{
     background-color: #000000AA;
-    height: 60px;
+    height: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -58,7 +58,7 @@ main{
     flex-direction: column;
     flex-grow: 1;
     padding: 15vh 10vw;
-    max-width: 800px; 
+    max-width: 5000px; 
 }
 
 main h1{
@@ -71,7 +71,7 @@ main h1{
 
 main h1::after{
     
-    content: "Curupira";
+    content: "Saci";
     position: absolute;
     top: 1px;
     left: 2px;
@@ -98,6 +98,7 @@ main p{
     display: flex;
     flex-direction: row;
     margin-top: 10px;
+    
 }
 
 .lenda{
@@ -106,7 +107,7 @@ main p{
 
 
 
-.nomes ul{
+.informacao ul{
     display: flex;
     list-style-type: none;
     margin-top: 20px;
@@ -121,7 +122,7 @@ main p{
     font-style: italic;
 }
 
-.nomeFabio{
+.nomeAtor{
     font-size: 20px;
 }
 
@@ -133,7 +134,7 @@ main p{
     font-style: italic;
 }
 
-.nomeIbere{
+.nomePersonagem{
     font-size: 20px;
 }
 
@@ -141,7 +142,7 @@ main p{
     font-style: italic;
 }
 
-.nomeCurupira{
+.nomeEntidade{
     font-size: 20px;
 }
 

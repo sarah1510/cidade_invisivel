@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    list-style-type: none;
 }
 
 body{
@@ -33,10 +34,10 @@ header{
     width: 120px;
 }
 
-.links ul{
+.links > ul{
     display: flex;
     gap: 20px;
-    list-style-type: none;
+    
     
 }
 

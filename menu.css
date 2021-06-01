@@ -3,7 +3,7 @@
     display: flex;
 }
 
-.menu li > .submenu{
+.menu li:hover > .submenu{
     display: block;
 }
 
@@ -12,21 +12,21 @@
 }
 
 .submenu{
-    margin-top: 15px;
-    display: none;
+    /* margin-top: 10px; */
     font-size: 18px;
     position: absolute;
+    display: none;
 }
 
 .submenu a{
-    width: 150px;
+
+    width: 200px;
     height: 40px;
     display: flex;
     justify-content: flex-start;
     padding-left: 20px;
     padding-top: 10px;
     background-color: #000000AA;
-    
 }
 
 .submenu a:hover{
