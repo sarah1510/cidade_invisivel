@@ -12,7 +12,7 @@
 }
 
 .submenu{
-    /* margin-top: 10px; */
+    /* margin-top: 9px;   */
     font-size: 18px;
     position: absolute;
     display: none;
@@ -30,6 +30,6 @@
 }
 
 .submenu a:hover{
-    border-left: 10px solid red;
+    border-left: 5px solid red;
 }
 

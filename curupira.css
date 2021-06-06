@@ -11,6 +11,7 @@ body{
     background-position: right;
     background-repeat: no-repeat;
     background-color: #00000055;
+    background-blend-mode: darken;
     display: flex;
     flex-direction: column;
     height: 100vh;
@@ -25,6 +26,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-family: 'Karla', sans-serif;
     padding: 0 10vw;
 }
 
@@ -110,7 +112,8 @@ main p{
     display: flex;
     list-style-type: none;
     margin-top: 20px;
-    gap: 50px;
+    margin-left: 20px ;
+    gap: 30px;
 }
 
 .ator{
@@ -121,28 +124,31 @@ main p{
     font-style: italic;
 }
 
-.nomeFabio{
+.nomeAtor{
     font-size: 20px;
+    margin-right: 50px;
 }
 
 .personagem{
     display: flex;
     flex-direction: column;
     border-right: solid 3px #bf2424;
-    margin-right: 10px;
+    justify-content: space-between;
     font-style: italic;
 }
 
-.nomeIbere{
+.nomePersonagem{
     font-size: 20px;
+    margin-right: 50px;
 }
 
 .entidade{
     font-style: italic;
 }
 
-.nomeCurupira{
+.nomeEntidade{
     font-size: 20px;
+    margin-right: 50px;
 }
 
 footer{

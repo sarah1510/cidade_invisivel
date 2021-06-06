@@ -6,7 +6,7 @@
 }
 
 body{
-    background-image: url(img/saci-cidade-invisivel.jpg);
+    background-image: url(img/boto.jpg);
     background-color: #00000055;
     background-blend-mode: darken;
     background-size: cover;
@@ -59,14 +59,14 @@ main{
     /*background-color: khaki;*/
     flex-direction: column;
     flex-grow: 1;
-    padding: 15vh 10vw;
+    padding: 12vh 10vw;
     max-width: 1000px; 
 }
 
 main h1{
     position: relative;
-    font-size: 100px;
-    width: 20px;
+    font-size: 75px;
+    width: 800px;
     -webkit-text-stroke: 3px white;
     color: transparent; 
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
@@ -74,11 +74,11 @@ main h1{
 
 main h1::after{
     
-    content: "Saci";
+    content: "Boto-cor-de-rosa";
     position: absolute;
     top: 1px;
     left: 2px;
-    font-size: 100px;
+    font-size: 75px;
     -webkit-text-stroke: 3px black;
     color: transparent;
     z-index: -1;
@@ -105,7 +105,7 @@ main p{
 }
 
 .lenda{
-    padding: 5vh 0;
+    padding: 7vh 0;
 }
 
 
