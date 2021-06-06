@@ -65,7 +65,7 @@ main{
 
 main h1{
     position: relative;
-    font-size: 100px;
+    font-size: 80px;
     -webkit-text-stroke: 3px white;
     color: transparent; 
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
@@ -77,7 +77,7 @@ main h1::after{
     position: absolute;
     top: 1px;
     left: 2px;
-    font-size: 100px;
+    font-size: 80px;
     -webkit-text-stroke: 3px black;
     color: transparent;
     z-index: -1;
