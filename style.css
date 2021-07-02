@@ -37,8 +37,6 @@ header{
 .links > ul{
     display: flex;
     gap: 20px;
-    
-    
 }
 
 .links a{
